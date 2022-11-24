@@ -47,23 +47,14 @@ const App = () => {
     }
   ]
 
-  for (var i = 0; i < courses.length; i++) {
-    <Course course={courses[i]}/>
-  }
-
-  courses.map(function(course){
-    return <Course course={courses[course.id]} />
-  })
-// ul väliin tarvitaan uniikki "key"
   return (
     
     <div>
       <h1>Web development curriculum</h1>
-      <ul>
-      {}
-      </ul>
-      <Course course={courses[0]} />
-      <Course course={courses[1]} />
+
+      {courses.map(note =>
+        <Course key={note.id} course={note} />
+      )} 
     </div>
 
   )
