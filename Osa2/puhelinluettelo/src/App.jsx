@@ -107,6 +107,7 @@ const App = () => {
         setNewNumber('')
       })
       .catch((error) => {
+        setAddMessage(`Error: ${error.response.data.error}`)
         console.error("Error adding contact:", error)
       })
     setAddMessage(
