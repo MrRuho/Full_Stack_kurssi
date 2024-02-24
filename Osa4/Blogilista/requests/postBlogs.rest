@@ -1,9 +1,10 @@
 POST http://127.0.0.1:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRlc3RVc2VyMSIsImlkIjoiNjVkODc0NDA0ZWY1ZDNmMjNmYzg2ODEyIiwiaWF0IjoxNzA4NzA4OTIzfQ.U268eT9-p3kO6U0QjLdUszkHpKGn5CPvBWJgkeCGQ-g
 
 {
-    "title": "Tittle",
-    "author": "Author",
-    "url": "Url",
-    "likes": 10
+    "title": "Tittle5",
+    "author": "Author5",
+    "url": "Url5",
+    "likes": 5
 }

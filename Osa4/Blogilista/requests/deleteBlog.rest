@@ -1,0 +1,4 @@
+DELETE http://127.0.0.1:3003/api/blogs/65d8829fd7e1f4aaf4b8b4d2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRlc3RVc2VyMiIsImlkIjoiNjVkODc0NTU0ZWY1ZDNmMjNmYzg2ODE2IiwiaWF0IjoxNzA4NzExMjY1fQ.04jeZ5SPffr9mFOtEHnyN_u8jSAE4Zcn1p_0CyJekvA
+
