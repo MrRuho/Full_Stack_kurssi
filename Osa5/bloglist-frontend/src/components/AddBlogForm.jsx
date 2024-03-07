@@ -1,15 +1,15 @@
 const createNewBlog = ({
-handleSubmit,
-handleTittleChange,
-handleAuthorChange,
-handleUrlChange,
-title,
-author,
-url,
-handleCancel
+  handleSubmit,
+  handleTittleChange,
+  handleAuthorChange,
+  handleUrlChange,
+  title,
+  author,
+  url,
+  handleCancel
 
-}) =>{
-    return (
+}) => {
+  return (
     <div>
       <h2>Create new</h2>
       <p></p>
@@ -19,8 +19,8 @@ handleCancel
           <input
             type="text"
             value={title}
-            onChange={handleTittleChange} 
-            />
+            onChange={handleTittleChange}
+          />
         </div>
         <div>
           author:
@@ -28,7 +28,7 @@ handleCancel
             type="text"
             value={author}
             onChange={handleAuthorChange}
-            />
+          />
         </div>
         <div>
           url:
