@@ -8,15 +8,18 @@ const Blog = ({ blog, setBlogs }) => {
   const loggedUser = JSON.parse(loggedUserJSON)
 
   const handleView = () => {
+    console.log('handleView called!')
     setVisible(!visible)
   }
 
   const handleLike = async () => {
+    console.log('handleLike called!')
     try {
       const updatedBlog = { ...blog, likes: blog.likes + 1 }
       await blogService.updateLikes(blog.id, updatedBlog)
 
       const updatedBlogs = await blogService.getAll()
+      console.log('handleLike set!')
       setBlogs(updatedBlogs)
 
     } catch (error) {
